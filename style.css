@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Open+Sans&display=swap');
+
+h5{
+    font-weight:bold;
+}
+
+a{
+    display: block;
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.row{
+    width:100%;
+}
+
+
+:root{
+    --dark:#2c2d37
+
+    ;
+    --light:#36afd9
+    ;
+}
+*{
+   
+    font-family: 'Josefin Sans', sans-serif;
+/* font-family: 'Open Sans', sans-serif;  */
+font-weight: bold;
+letter-spacing: 1px;
+}
+
+#main{
+    background-color: var(--dark);
+    display: flex;
+    justify-content: center; 
+}
+
+#cardbg{
+    border:2px solid var(--light);
+    height:100vh;
+    width:100%;   
+}
+
+.tline{
+    height:10px;
+    width:100%;
+    background-color: var(--light);
+    margin:0px;
+}
+
+.name{
+     padding-top:20px;
+}
+.name h3{
+color:var(--light);
+text-align: center;
+margin:0px;
+font-weight: bold;
+}
+.name p{
+    color:var(--light);
+    text-align: center;
+    font-size:18px;
+    margin:0px;
+    letter-spacing:1px;
+    }
+
+.image{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    overflow: hidden;
+    border:5px solid var(--light);  
+}
+
+.image img{
+width:100px;
+}
+
+#face{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+   width:100%;
+}
+
+#face .lbar{
+width:10px;
+background-color: var(--light);
+height:170px;
+border-radius: 0px 50px 50px 0px;
+}
+
+#face .rbar{
+    width:10px;
+    background-color: var(--light);
+    height:170px;
+   border-radius: 50px 0 0 50px;
+}
+
+#midcard i{
+    color:var(--dark);
+    font-size:20px;
+    margin:0px;
+}
+
+#midcard .cbox{
+    display: flex;
+    align-items: center;
+
+    margin-top:10px;
+    /* border:2px solid var(--light); */
+}
+
+#midcard .ic{
+    height:35px;
+    width:35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:var(--light);
+    margin-right:5px;
+}
+
+#midcard p{
+    color:var(--light);
+    font-size:17px;
+    margin:0px;
+    font-weight: bold;
+}
+
+#midcard{
+    /* border:2px solid var(--light); */
+    width:300px;
+    margin:0 auto;
+    padding:10px;
+
+}
+.line h5{
+    color:var(--light);
+    font-size:20px;
+    text-align: center;
+    margin-bottom:10px;
+}
+
+#cardbg .bot{
+    height:300px;
+    background-color:var(--light);
+    margin-top:60px;
+
+}
+
+.bot .icard{
+    border:5px solid var(--dark);
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    width:250px;
+    margin:0 auto;
+    transform:translateY(-50%);
+    background-color: var(--light);
+    padding:5px 0;
+}
+.bot .icard i{
+    font-size:24px;
+    color:var(--light);
+}
+
+.bot .icard .bi{
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color:var(--dark);
+    display:flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+@media only screen and (max-width:350px){
+    #midcard .ic{
+        margin-right:10px!important;
+    }
+    p{
+        font-size:17px!important;
+    }
+}
